@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>adisveletanlic@proton.me</email>
+    <name>Adis Veletanlic</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="github">defaultdino/rexamp</remote-id>
+    <bugs-to>https://github.com/defaultdino/rexamp/issues</bugs-to>
+  </upstream>
+  <use>
+    <flag name="cast">Enables casting functionality using castv2 protocol. Requires <pkg>
+      dev-libs/openssl</pkg></flag>
+  </use>
+</pkgmetadata>
